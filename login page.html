@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Webpage Design</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background:  url(vikas28.jpg);
+    background-position: center;
+    background-size: cover; 
+    height: 100vh;   
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+}
+.logo{
+    color:  #ee370a;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.manu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;    
+    
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: .3s ease;
+}
+ul li a:hover{
+    color: #ee370a;
+}
+.search{
+    width: 330;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid  #ee370a;
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    border-right: none;
+    font-size: 16px;
+    /* float: left; */
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background:  #ee370a;
+    border: 2px solid  #ee370a;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ffffff;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'times new Roman';
+    font-style: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+.content .cn{
+    width:  160px;
+    height: 40px;
+    text-decoration: none;
+    background:  #ee370a;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.content .cn a{
+    color: black;
+    text-decoration: none
+}
+
+.cn:hover{
+    transition: .3s ease;
+    background: rgb(255, 255, 255);
+}
+.cn a:hover{
+    color: #ee370a;
+
+}
+.content span{
+    color:  #ee370a;
+    font-size: 65px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,.8)50%, rgba(0,0,0,.8)50%);
+    position:  absolute;
+    top: 120px;
+    left: 895px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ee370a;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid  #ee370a;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.font input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+    width: 242px;
+    height: 40px;
+    background:  #ee370a;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: wheat;
+    transition: 0.4 ease;
+}
+.btnn:hover{
+    background: wheat;
+    color: #ee370a;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+        text-decoration: none;
+        color: #ee370a;
+    }
+    .liw{
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+     </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Praroz</h2>
+            </div>
+            <div class="manu">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">sevice</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Contect</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="search" placeholder="type text" >
+                <a href="#"><button class="btn">Search</button></a>
+                
+            </div>
+        </div>
+        <div class="content">
+            <h1>Web design & <br><span>Development</span><br>Course </h1>
+            <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Enim inventore harum facere sit veniam sapiente aliquam unde iusto quam. <br> Cum maiores error eos ducimus nobis magni quam modi perspiciatis corporis, <br>nam illum tempore at est eius.</p>
+            <button class="cn"><a href="#">JOIN US</a></button>
+            <div class="form" >
+                <h2>Login Hero</h2>
+                <input type="email" name="email" placeholder="Enter Email Hero">
+                <input type="password" name="" placeholder="enter password Hero">
+                <button  class="btnn"><a href="#">Login</a></button>
+                <p class="link">Don't have an account <br>
+                <a href="#">sign up </a> hero</p>
+                <p  class="liw">Log in with</p>
+                <div class="icon">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                </div>        
+
+            </div>
+            
+        </div>
+    </div>
+    <script> src="" </script>
+</body>
+</html>
